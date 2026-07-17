@@ -1,0 +1,30 @@
+# Virtual environment
+queueless_nepal_venv/
+env/
+venv/
+*_venv/
+
+# Environment secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Django
+media/
+staticfiles/
+db.sqlite3
+db.sqlite3-journal
+
+# Database backups/dumps
+*.sql
+*.dump
+*.backup
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
